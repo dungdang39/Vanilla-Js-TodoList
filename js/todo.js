@@ -7,6 +7,10 @@ const TODOS_KEY = "todos";
 let toDos = [];
 
 function saveToDo() {
+  const compare = (a, b) => {
+    return parseInt(b.id) - parseInt(a.id);
+  };
+  toDos = toDos.sort(compare);
   localStorage.setItem(TODOS_KEY, JSON.stringify(toDos));
 }
 
@@ -27,7 +31,7 @@ function paintTodo(newTodo) {
   button.addEventListener("click", deleteTodo);
   li.appendChild(span);
   li.appendChild(button);
-  toDoList.appendChild(li);
+  toDoList.prepend(li);
   saveToDo();
 }
 
