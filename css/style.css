@@ -10,4 +10,60 @@ img {
   left: 0px;
   top: 0px;
   object-fit: cover;
+  filter: brightness(50%);
+  -webkit-filter: brightness(70%);
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h2#clock {
+  font-size: 80px;
+  color: #ffffff;
+  margin: 15px 0px;
+}
+
+form#todo-form input {
+  border: none;
+  border-bottom: 2px solid #ffffff;
+  background: transparent;
+  color: #ffffff;
+  outline: none;
+  font-size: 20px;
+}
+
+form#todo-form input::placeholder {
+  color: #ffffff;
+}
+
+ul#todo-list {
+  max-width: 200px;
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+ul#todo-list li {
+  font-size: 16px;
+  color: #ffffff;
+  text-align: left;
+}
+
+div#quote {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+div#weather {
+  color: #ffffff;
 }
