@@ -4,8 +4,8 @@
 
 [테스트 하러 가기](https://dungdang39.github.io/Vanilla-Js-TodoList/)
 
-![첫 메인 화면](/images/@img_main.png)
-![기록 추가](/images/@img_main2.png)
+![첫 메인 화면](/img/@img_main.png)
+![기록 추가](/img/@img_main2.png)
 
 ### Development
 
