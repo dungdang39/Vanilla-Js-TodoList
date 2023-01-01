@@ -27,7 +27,7 @@ img {
 }
 
 h2#clock {
-  font-size: 80px;
+  font-size: 100px;
   color: #ffffff;
   margin: 15px 0px;
 }
@@ -46,16 +46,29 @@ form#todo-form input::placeholder {
 }
 
 ul#todo-list {
-  max-width: 200px;
+  max-width: 250px;
   width: 100%;
   margin: 10px auto;
   text-align: center;
+  padding: 0;
 }
 
 ul#todo-list li {
   font-size: 16px;
   color: #ffffff;
-  text-align: left;
+  text-align: center;
+  padding: 5px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul#todo-list li button {
+  border: none;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.703);
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 20px;
 }
 
 div#quote {
